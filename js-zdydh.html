@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>自己设想的动画</title>
+	<style type="text/css">
+		body{text-align: center;background: #333;color:#fff;}
+		hr{margin:70px auto;}
+		#bar{height:40px;width:200px;background: #666;margin:0 auto;}
+	</style>
+	<script type="text/javascript">
+	/*
+	var timer;
+	var bar=document.getElementById("bar");
+	var inc=10;
+	function begin(){
+		function hah(){
+			var bar=document.getElementById("bar");
+			if(bar.style.width==1000+"px"){
+				inc=1000;
+			}
+			else{
+				inc+=10;
+			}
+			bar.style.width=inc+"px";
+		}
+		timer=setInterval(hah,100);
+	}
+	function stop(){
+		clearInterval(timer);
+	}*/
+	var timer;
+	var bar=document.getElementById("bar");
+	var inc=10;
+	function hah(){
+			var bar=document.getElementById("bar");
+			if(bar.style.width==1000+"px"){
+				inc=1000;
+			}
+			else{
+				inc+=10;
+			}
+			bar.style.width=inc+"px";
+		}
+	function begin(){
+		
+		timer=setInterval(hah,100);
+	}
+	function stop(){
+		clearInterval(timer);
+	}
+	</script>
+</head>
+<body>
+	
+	<hr />
+	<button onclick="begin();">开始</button>
+	<button onclick="stop();">停止</button>
+	<hr />
+	<div id="bar"></div>
+</body>
+</html>

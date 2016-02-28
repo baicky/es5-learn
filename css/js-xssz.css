@@ -1,0 +1,108 @@
+.timer{
+	overflow: hidden;
+	position: relative;
+	margin:60px auto;
+	padding:0;
+	color:#fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 400px;
+	width:1000px;
+	height: 400px;
+	background:rgb(179, 141, 210);
+}
+.timer2{
+	margin:60px auto;
+	padding:0;
+	color:#fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 400px;
+	width:1000px;
+	height: 400px;
+	background:url(../imgs/3.jpg);
+	background-size: 1000px 400px;
+}
+/*++++++++++++++++++++++++++++++++图片透明度++++++++++++++++++++++++++++++++++++*/
+.imgq{
+	width:1000px;
+	height: 400px;
+	margin:60px auto;
+}
+.imgq img{
+
+	width:1000px;
+	height: 400px;
+	opacity: .6;
+	filter:Alpha(Opacity=60);
+}
+.imgq2{
+	width:1000px;
+	height: 400px;
+	margin:60px auto;
+}
+.imgq2 img{
+
+	width:1000px;
+	height: 400px;
+	opacity: .6;
+	filter:Alpha(Opacity=60);
+}
+.imgq2 img:hover{
+
+	width:1000px;
+	height: 400px;
+	opacity: 1;
+	filter:Alpha(Opacity=100);
+}
+/*++++++++++++++++++++++++++++++++++++++图片选择【选项卡，轮播图】++++++++++++++++++++++++++++++++*/
+.bigpic{
+	margin:60px auto;
+	padding:0;
+	color:#fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 400px;
+	width:1000px;
+	height: 400px;
+	background:rgb(179, 141, 210);
+	background-size: 1000px 400px;
+}
+.bigpic img{
+	width:1000px;
+	height:400px;
+}
+.pic{
+	margin:60px auto;
+	padding:0;
+	color:#fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 400px;
+	width:1000px;
+	height: 400px;
+	/*background:rgb(179, 141, 210);
+	background-size: 1000px 400px;*/
+}
+.pic img{
+	width:100px;
+	height:40px;
+	float: left;
+	padding:20px 20px;
+}
+/*++++++++++++++++++++++++++++++运动的div+++++++++++++++++++++++++++++++*/
+.div1{
+	position: absolute;
+	background: #666;
+	width:200px;
+	height:100px;
+	left:-180px;
+}
+.div2{
+	position: absolute;
+	background: #666;
+	width:20px;
+	height:10px;
+	left:20px;
+	top:45px;
+}

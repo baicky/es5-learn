@@ -1,0 +1,33 @@
+body,a{color: #fff;}
+.top{
+	margin:60px auto;
+	padding:0;
+	color:#fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 400px;
+	width:1000px;
+	height: 400px;
+	background:rgb(179, 141, 210);
+}
+.two{
+	margin:60px auto;
+	padding:0;
+	color:#fff;
+	font-size: 30px;
+	text-align: center;
+	width:1000px;
+	height: 400px;
+	background:rgb(179, 141, 210);
+}
+.two ul li{
+	margin:60px auto;
+	background: #666;
+	padding: 20px;
+	float:left;
+	list-style: none;
+}
+.two a{text-decoration: none;}
+.two ul li:hover{
+	background:#333;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三角形文字</title>
+	<style type="text/css">
+		body{text-align: center;background: #333;color:#fff;}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+	var i,j;
+	for(i=1;i<10;i++){
+		for(j=1;j<i;j++){
+			document.write("※");
+		}
+		document.write("<br />");
+	}
+
+	function closewin(){
+		window.opener=null;
+		window.open('','_self');
+		window.close();
+	}
+	</script>
+	<hr />
+	<button onclick="closewin()">关闭窗口</button>
+</body>
+</html>
